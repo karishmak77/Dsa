@@ -1,5 +1,4 @@
-
-// Questions: Check the array if it is sorted or not ( Acending order )
+// Questions: Check the array if it is sorted ( Acending order ) or not.  [ level: Easy ]
 
 import java.util.ArrayList;
 import java.util.List;
