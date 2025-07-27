@@ -21,3 +21,17 @@ public class Largestelement {  // time complexity : O(n)
     }
 }
 
+
+
+//Language Used: Java
+// Concept Used: Simple linear scan using ArrayList and index tracking
+// Technique:
+//--> Used a single traversal (for loop) to compare elements one by one
+//--> Maintained an index currentLarge to store the position of the current largest number Compared each element with the current
+// largest and updated the index if a larger number is found
+
+
+// Time Complexity: O(n) → because we traverse the list once
+// Space Complexity: O(1) → no extra space used, only variables
+
+
