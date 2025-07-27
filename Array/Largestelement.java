@@ -1,4 +1,4 @@
-// Question : Find the largest element in an array 
+// Question : Find the largest element in an array (Easy)
 
 import java.util.ArrayList;
 import java.util.Arrays;
