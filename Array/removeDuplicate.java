@@ -1,3 +1,5 @@
+//Question : Remove Duplicates from an Array [ level: easy ]
+
 // import java.util.List;
 // import java.util.Scanner;
 // import java.util.ArrayList;
