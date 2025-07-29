@@ -30,11 +30,6 @@ public class removeDuplicate {
     }
 
 
-
-
-
-
-
   // public static void main(String[] args) {   
   //     List<Integer> arr= new ArrayList<>(); // Time complexity:O(n)   using only methods
   //     Scanner sc= new Scanner(System.in);
@@ -56,43 +51,41 @@ public class removeDuplicate {
 
   //   sc.close();
 
-  // }
-    
-  
-
-  // public static void removeDup(List<Integer> arr, int size){  // the time complexity : O(n)2 square
-  //   int i=0;
-  //   while (i<arr.size()) {
-  //     int j=i+1;
-  //     while (j<arr.size()) {
-  //       if (arr.get(i).equals(arr.get(j))) {
-  //         arr.remove(j);
-          
-  //       }else{
-  //         j++;
-  //       }
-  //     }
-  //     i++;
-      
-  //   }
-  // }
-  // public static void main(String[] args) {
-  //   List<Integer> arr= new ArrayList<>();
-  //   Scanner sc= new Scanner(System.in);
-
-  //   System.out.print("Enter the Size of an array: ");
-  //   int size=sc.nextInt();
-
-  //   System.out.print("Enter the Elements in the Array: ");
-  //   for(int i=0;i<size;i++){
-  //     int input=sc.nextInt();
-  //     arr.add(input);
-  //   }
-  //   removeDup(arr, size);
-  //   System.out.println(arr);
-  
-
-  //   sc.close();
-
-  // }
+  // }  
+ 
 }
+
+
+
+//code:-1
+// The input array must be sorted first so that duplicates come next to each other.
+// That's why you use Arrays.sort(arr) before calling the function.
+// I use two pointers:
+// i keeps track of the last unique element’s position
+// j scans through the array
+// If arr[i] != arr[j], it means we’ve found a new unique element.
+// So, we increment i and store arr[j] at arr[i] to move the unique element forward
+// In the end, the first i + 1 elements of the array contain all the unique elements in order.
+
+// Time Complexity:
+// Sorting: O(n log n)
+// Removing duplicates: O(n)
+// Total: O(n log n)
+// Space Complexity:
+// O(1) → In-place operation, no extra data structures used
+
+
+
+//code:-2
+// LinkedHashSet is used here because:
+// It doesn’t allow duplicates
+// It preserves the insertion order (unlike HashSet)
+// You collect input using Scanner, store it in an ArrayList, then pass it to the LinkedHashSet to filter out duplicates.
+// The result is a list of unique elements in the same order they were originally entered.
+
+// Time Complexity:
+// Input: O(n)
+// Set conversion: O(n)
+// Total: O(n)
+// 💾 Space Complexity:
+// O(n) → because LinkedHashSet uses extra memory to store elements
