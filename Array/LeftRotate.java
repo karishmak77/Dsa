@@ -35,3 +35,15 @@ public class LeftRotate {
 
   
 }
+
+
+
+
+// Language: Java
+// Technique:
+// Store the first element
+// Shift all elements one position to the left
+// Place the stored first element at the end
+
+// Time Complexity: O(n)
+// Space Complexity: O(1) → In-place rotation
