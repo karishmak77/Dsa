@@ -19,3 +19,13 @@ public class rightRotate {
   }
   
 }
+
+
+//Language: Java
+// Technique:
+// Store the last element
+// Shift all elements one position to the right
+// Place the stored last element at the start
+
+// Time Complexity: O(n)
+// Space Complexity: O(1) → In-place rotation
