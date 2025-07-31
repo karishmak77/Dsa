@@ -1,4 +1,6 @@
-public class paliindrome {
+// Question: Check if a String is Pallindrome or not
+
+public class paliindrome {   // Time complexity: O(n)    space complexity:O(1)
   public static String stringpal(String word , int size){
     int i=0;
     boolean pal =true; 
