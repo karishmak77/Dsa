@@ -1,5 +1,7 @@
+// Question: Reverse the given array 
+
 public class reversingArray {
-  public static void rev(int []arr, int size){
+  public static void rev(int []arr, int size){  // Time Complexity: O(n) Space Complexity: O(1)
     int i=0;
     for(int j=size-1;j>size/2;j--){
       int temp= arr[i];
