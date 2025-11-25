@@ -1,3 +1,4 @@
+# Time complexity: O(n)^2  Space complexity:O(1)
 def threeSumSmaller(nums, sum):
     nums.sort()
     count = 0
@@ -20,4 +21,5 @@ def threeSumSmaller(nums, sum):
                 
 nums = [5,1,3,4,7]
 sum=12
+
 print(threeSumSmaller(nums,sum))
